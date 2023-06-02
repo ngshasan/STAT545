@@ -3,9 +3,7 @@
 
 ![stat545-logo](https://github.com/ngshasan/STAT545/assets/65890522/ca39d150-1900-4779-ae1c-ebd607220817)
 
-# Data wrangling, exploration, and analysis with R
-
-## **Jenny Bryan**
+# Data wrangling, exploration, and analysis with R by Jenny Bryan**
 
 
 This bookdown book is a *work in progress*. We'll update this `README` and the repo status when ready! :rocket:
