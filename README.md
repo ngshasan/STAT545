@@ -1,11 +1,9 @@
 # STAT 545
-
 # Data wrangling, exploration, and analysis with R
 
 ## **Jenny Bryan**
 
-![text](/WORK(UAB)/STAT545/stat545-logo.pnn)
-
+![stat545-logo](https://github.com/ngshasan/STAT545/assets/65890522/ca39d150-1900-4779-ae1c-ebd607220817)
 
 
 This bookdown book is a *work in progress*. We'll update this `README` and the repo status when ready! :rocket:
