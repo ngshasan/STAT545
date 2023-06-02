@@ -1,5 +1,6 @@
 # STAT 545
 
+
 ![stat545-logo](https://github.com/ngshasan/STAT545/assets/65890522/ca39d150-1900-4779-ae1c-ebd607220817)
 
 # Data wrangling, exploration, and analysis with R
