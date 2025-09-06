@@ -57,6 +57,7 @@ The workhorse data import function of readr is `read_delim()`. Here we'll use a 
 
 ```{r}
 gapminder <- read_tsv(gap_tsv)
+
 str(gapminder, give.attr = FALSE)
 ```
 
@@ -83,11 +84,13 @@ The Gapminder data is too clean and simple to show off the great features of rea
 
 We need compute something worth writing to file. Let's create a country-level summary of maximum life expectancy.
 
+
 ```{r}
 gap_life_exp <- gapminder %>%
   group_by(country, continent) %>% 
   summarise(life_exp = max(lifeExp)) %>% 
   ungroup()
+
 gap_life_exp
 ```
 

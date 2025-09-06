@@ -85,7 +85,10 @@ filter(gapminder, country %in% c("Rwanda", "Afghanistan"))
 Compare with some base R code to accomplish the same things:
 ```{r eval = FALSE}
 gapminder[gapminder$lifeExp < 29, ] ## repeat `gapminder`, [i, j] indexing is distracting
+
 subset(gapminder, country == "Rwanda") ## almost same as filter; quite nice actually
+
+# filter(gapminder, country == "Rwanda") # using filter
 ```
 
 Under no circumstances should you subset your data the way I did at first:
@@ -205,3 +208,5 @@ Chapter \@ref(join-cheatsheet): cheatsheet I made for dplyr join functions (not 
 
 ```{r links, child="links.md"}
 ```
+
+
